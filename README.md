@@ -8,8 +8,10 @@ This notebook is written by Mihai Munteanu in Python 3.7.5.
 #### Clone the repository
 
 Run 
-``` $ git clone https://github.com/mihaihai/flight_data.git```
-``` $ cd flight_data ```
+``` 
+$ git clone https://github.com/mihaihai/flight_data.git
+$ cd flight_data
+```
 to clone the repository locally and enter the folder.
 
 #### Setting up the Python environment
