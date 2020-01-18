@@ -7,21 +7,21 @@ This notebook is written by Mihai Munteanu in Python 3.7.5.
 #### Clone the repository
 
 Run 
-``` $ git clone https://github.com/mihaihai/flight_data.git```
-``` $ cd flight_data ```
+1. ``` $ git clone https://github.com/mihaihai/flight_data.git```
+2. ``` $ cd flight_data ```
 to clone the repository locally and enter the folder.
 
 #### Setting up the Python environment
 
 Run the following commands to install `pyenv` and `pyenv-virtualenv`
-```$ brew update```
-```$ brew install pyenv```
-```$ brew install pyenv-virtualenv```
+1. ```$ brew update```
+2. ```$ brew install pyenv```
+3. ```$ brew install pyenv-virtualenv```
 
 Next, in your `.zshrc`, `.bashrc`, or `.bash_profile` (depending on which shell you use) add the following towards the bottom:
 
-```eval "$(pyenv init -)"```
-```eval "$(pyenv virtualenv-init -)"```
+```eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"```
 
 And then source the file you modified (e.g. `$ source .bashrc`), so that your terminal recognizes `pyenv`.
 
