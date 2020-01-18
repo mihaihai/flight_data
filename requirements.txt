@@ -58,3 +58,5 @@ wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 zipp==0.6.0
+patsy==0.5.1
+statsmodels==0.10.2
