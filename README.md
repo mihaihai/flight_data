@@ -20,10 +20,12 @@ Run the following commands to install `pyenv` and `pyenv-virtualenv`
 
 Next, in your `.zshrc`, `.bashrc`, or `.bash_profile` (depending on which shell you use) add the following towards the bottom:
 
-```eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"```
+```
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
 
-And then source the file you modified (e.g. `$ source .bashrc`), so that your terminal recognizes `pyenv`.
+and then source the file you modified (e.g. `$ source .bashrc`), so that your terminal recognizes `pyenv`.
 
 
 Finally to set up the environment run
