@@ -1,5 +1,6 @@
 # A study of flight delays from NY
 
+<img src="http://www.airportspotting.com/wp-content/uploads/2015/05/NewYorkCityAirports.jpg" alt="The main 3 airports of New York city" width="400"/>
 In this notebook, I study a database of over 330 000 flights that departed from New York in 2013 for 105 different destinations in the USA to figure out which factors influence delays and which not. I will try to make an informed decision as to whether one airport is better than the others.
 
 This notebook is written by Mihai Munteanu in Python 3.7.5.
