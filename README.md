@@ -38,7 +38,7 @@ and then source the file you modified (e.g. `$ source .bashrc`), so that your te
 Finally to set up the environment run
 
 - ```$ pyenv install 3.7.0``` to install the version of Python used in this notebook,
-- ```$ pyenv virtualenv 3.7.0 flight_data_3.7.0``` to create a new environment using Python 3.7.5,
+- ```$ pyenv virtualenv 3.7.0 flight_data_3.7.0``` to create a new environment using Python 3.7.0,
 - ```$ pyenv activate flight_data_3.7.0``` to activate the environment (`source deactivate` to deactivate the environment at the end), 
 - ```$ pip install -r requirements.txt``` to install the requirements.
 
