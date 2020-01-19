@@ -16,7 +16,7 @@ to clone the repository locally and enter the folder.
 
 #### Set up the Python environment
 
-The notebook is made to run on Python 3.7 with the requirements in `requirements.txt` so please set up and activate such an environment before running `jupyter notebook`. Below you can see one way to do using `pyenv` on MacOS.
+The notebook is made to run on Python 3.7 with the requirements in `requirements.txt` so please set up and activate such an environment before running `jupyter notebook`. Below you can see one way to do it using `pyenv` on MacOS.
 
 Run the following commands to install `pyenv` and `pyenv-virtualenv`
 ```
@@ -38,8 +38,8 @@ and then source the file you modified (e.g. `$ source .bashrc`), so that your te
 Finally to set up the environment run
 
 - ```$ pyenv install 3.7.0``` to install the version of Python used in this notebook,
-- ```$ pyenv virtualenv 3.7 flight_data_3.7``` to create a new environment using Python 3.7.5,
-- ```$ pyenv activate flight_data_3.7``` to activate the environment,
+- ```$ pyenv virtualenv 3.7.0 flight_data_3.7.0``` to create a new environment using Python 3.7.5,
+- ```$ pyenv activate flight_data_3.7.0``` to activate the environment,
 - ```$ pip install -r requirements.txt``` to install the requirements.
 
 Now you can run the Python3 server by typing `$ jupyter notebook` in your terminal. 
